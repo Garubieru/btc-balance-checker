@@ -49,7 +49,7 @@ export default function BtcVerifier() {
       <ContentWrapper>
         <Title>
           <RiBitCoinLine size={80} color={theme.colors.colorPrimary} />
-          Bitcoin Balances Checker
+          Bitcoin Balance Checker
         </Title>
 
         <Input
