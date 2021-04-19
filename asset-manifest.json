@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/btc-balance-checker/static/js/main.b7dda45c.chunk.js",
+    "main.js.map": "/btc-balance-checker/static/js/main.b7dda45c.chunk.js.map",
+    "runtime-main.js": "/btc-balance-checker/static/js/runtime-main.d3cdd54d.js",
+    "runtime-main.js.map": "/btc-balance-checker/static/js/runtime-main.d3cdd54d.js.map",
+    "static/js/2.18e3396b.chunk.js": "/btc-balance-checker/static/js/2.18e3396b.chunk.js",
+    "static/js/2.18e3396b.chunk.js.map": "/btc-balance-checker/static/js/2.18e3396b.chunk.js.map",
+    "index.html": "/btc-balance-checker/index.html",
+    "static/js/2.18e3396b.chunk.js.LICENSE.txt": "/btc-balance-checker/static/js/2.18e3396b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d3cdd54d.js",
+    "static/js/2.18e3396b.chunk.js",
+    "static/js/main.b7dda45c.chunk.js"
+  ]
+}
