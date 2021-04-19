@@ -5,8 +5,8 @@ A bitcoin balance checker made in react based on UTXO(Unspent Transaction Output
 ## How to run
 
 ### `API`
-To make it works, you'll need to run the btc-balance API application. You can clone it from here:
-https://github.com/Garubieru/btc-balance-api.
+
+The application will consume the API publicated on heroku(https://btc-balance-api.herokuapp.com/). You can check it here: https://github.com/Garubieru/btc-balance-api.
 
 ### `yarn start`
 

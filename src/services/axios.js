@@ -1,7 +1,8 @@
 import axios from 'axios';
 
+const baseUrl = 'https://btc-balance-api.herokuapp.com/';
 const api = axios.create({
-  baseURL: 'http://localhost:8000',
+  baseURL: baseUrl,
   headers: {
     'Content-Type': 'application/json',
   },

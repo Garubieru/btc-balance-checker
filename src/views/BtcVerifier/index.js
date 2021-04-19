@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { RiBitCoinLine } from 'react-icons/ri';
 
 import { validate } from 'bitcoin-address-validation';
@@ -24,6 +24,21 @@ export default function BtcVerifier() {
   const [isError, setIsError] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
   const [balances, setBalances] = useState(balancesModel);
+
+  // If isRequested auto update balance every 5 seconds.
+  useEffect(() => {
+    if (!isRequested) return null;
+    const updateBalance = async () => {
+      const { data } = await api.get(`/balance/${address}`);
+      setBalances(data);
+    };
+
+    updateBalance();
+    const interval = setInterval(() => updateBalance(), 5000);
+    return () => {
+      clearInterval(interval);
+    };
+  }, [isRequested]);
 
   const handleClick = async () => {
     if (!address || !validate(address)) {
