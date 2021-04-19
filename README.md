@@ -1,6 +1,7 @@
 # Bitcoin Balance Checker
 
 A bitcoin balance checker made in react based on UTXO(Unspent Transaction Output).
+![Bitcoin Balance Checker](https://i.imgur.com/AZvilhD.png)
 
 ## How to run
 
