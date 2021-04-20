@@ -14,7 +14,7 @@ const Button = styled.button`
   text-transform: uppercase;
 
   border: none;
-  background: ${theme.colors.colorPrimaryDark};
+  background: ${({ bgColor }) => bgColor || theme.colors.colorPrimaryDark};
   border-radius: ${theme.style.borderRadiusLight};
   padding: 1.2rem;
 

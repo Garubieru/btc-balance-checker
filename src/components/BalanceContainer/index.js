@@ -13,7 +13,7 @@ export default function BalanceContainer({ isConfirmed, balance, ...rest }) {
 
   return (
     // eslint-disable-next-line react/jsx-props-no-spreading
-    <Wrapper isConfirmed={isConfirmed} {...rest}>
+    <Wrapper isConfirmed={isConfirmed} {...rest} title="balanceContainer">
       {isConfirmed ? (
         <FaCheckCircle size={iconSize} />
       ) : (
